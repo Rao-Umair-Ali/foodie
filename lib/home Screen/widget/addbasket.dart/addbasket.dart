@@ -26,7 +26,7 @@ class Cart extends StatelessWidget {
                   subtitle: Text("2972 Westheimer Rd. Santa Ana >"),
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Column(
                       children: const [
