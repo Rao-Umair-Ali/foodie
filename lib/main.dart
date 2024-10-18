@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodie/home%20Screen/homeScreen.dart';
+import 'package:foodie/home%20Screen/widget/addbasket.dart/addbasket.dart';
  // Adjust the import as necessary
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(debugShowCheckedModeBanner: false,
       
-      home:  HomeScreen(),
+      home:  Cart(),
     );
   }
 }
